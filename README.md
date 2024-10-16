@@ -36,7 +36,7 @@ TEMPLATE: `grep [OPTION] [TEMPLATE] [FILE]`
 1. Clone the project
 
 ```bash
-  git clone https://github.com/kmiakaeva/s21-simple-bash-utils
+  git clone https://github.com/nknL1/BashUtils-cat-grep.git
 ```
 
 2. Go to the project directory
