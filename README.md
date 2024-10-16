@@ -1,8 +1,8 @@
-# School 21. Simple Bash Utils
+Simple Bash Utils
 
 Development of Bash text utilities: cat, grep.
 
-### s21_cat
+### cat
 
 TEMPLATE: `cat [OPTION] [FILE]`
 
@@ -14,7 +14,7 @@ TEMPLATE: `cat [OPTION] [FILE]`
 | 4   | -s (GNU: --squeeze-blank)                                   | squeeze multiple adjacent blank lines        | ☑️     |
 | 5   | -t implies -v (GNU: -T the same, but without implying -v)      | but also display tabs as ^I                  | ☑️     |
 
-### s21_grep
+### grep
 
 TEMPLATE: `grep [OPTION] [TEMPLATE] [FILE]`
 
@@ -36,13 +36,13 @@ TEMPLATE: `grep [OPTION] [TEMPLATE] [FILE]`
 1. Clone the project
 
 ```bash
-  git clone https://github.com/nknL1/BashUtils-cat-grep.git
+  git clone https://github.com/nknL1/BashUtils-CatGrep.git
 ```
 
 2. Go to the project directory
 
 ```bash
-  cd s21-simple-bash-utils
+  cd BashUtils-CatGrep
 ```
 
 3. Go to the cat or grep folder
@@ -63,5 +63,5 @@ TEMPLATE: `grep [OPTION] [TEMPLATE] [FILE]`
 5. Run test
 
 ```bash
-  make run
+  make test
 ```
